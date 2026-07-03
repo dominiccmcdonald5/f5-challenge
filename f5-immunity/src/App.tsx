@@ -155,7 +155,7 @@ function StarPage() {
       'https://picsum.photos/seed/f5-night-30/1000/620',
       'https://picsum.photos/seed/f5-night-31/1000/620',
       'https://picsum.photos/seed/f5-night-32/1000/620',
-      '/Screenshot 2060-07-03 022457.png',
+      '/Screenshot 2026-07-03 025926.png',
     ],
     [],
   )
