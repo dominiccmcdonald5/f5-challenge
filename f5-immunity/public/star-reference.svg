@@ -1,0 +1,36 @@
+<svg width="320" height="320" viewBox="0 0 320 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Collectible Gold Star Reference</title>
+  <desc id="desc">A five-point gold star with glow and sparkle particles for player reference.</desc>
+  <defs>
+    <radialGradient id="halo" cx="50%" cy="45%" r="55%">
+      <stop offset="0%" stop-color="#FFEAA0" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#FFEAA0" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="starFill" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFF3B8"/>
+      <stop offset="52%" stop-color="#FFD55E"/>
+      <stop offset="100%" stop-color="#F6A300"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="0" stdDeviation="6" flood-color="#FFD870" flood-opacity="0.95"/>
+      <feDropShadow dx="0" dy="0" stdDeviation="13" flood-color="#7EC0FF" flood-opacity="0.42"/>
+    </filter>
+  </defs>
+
+  <rect width="320" height="320" fill="#0B1222"/>
+  <circle cx="160" cy="160" r="120" fill="url(#halo)"/>
+
+  <path
+    d="M160 43L192.8 109.4L266.1 120L213 171.8L225.5 244.9L160 210.5L94.5 244.9L107 171.8L53.9 120L127.2 109.4L160 43Z"
+    fill="url(#starFill)"
+    stroke="#FFF0BF"
+    stroke-width="7"
+    filter="url(#glow)"
+  />
+
+  <circle cx="84" cy="80" r="4" fill="#FFEA9D"/>
+  <circle cx="238" cy="66" r="3" fill="#C8E6FF"/>
+  <circle cx="260" cy="198" r="5" fill="#FFD774"/>
+  <circle cx="69" cy="212" r="3" fill="#B8DCFF"/>
+  <circle cx="199" cy="258" r="4" fill="#FFD774"/>
+</svg>

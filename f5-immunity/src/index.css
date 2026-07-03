@@ -1,0 +1,59 @@
+:root {
+  --ink: #e6eeff;
+  --ink-soft: #b5c4e6;
+  --line: #2a3a61;
+  --panel-bg: #111a30;
+  --panel-inner: #0f2238;
+  --card-top: #1c2744;
+  --card-bottom: #14203a;
+  --badge-bg: #ffcf58;
+  --badge-text: #1a2238;
+  --sky-100: #263b66;
+  --sky-300: #3d5f9c;
+  --sky-900: #f4f8ff;
+  --sun-100: #4a3a1f;
+  --sun-300: #9f7a2a;
+  --sun-700: #ffd57a;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: 'Trebuchet MS', 'Gill Sans', 'Segoe UI', sans-serif;
+  color: var(--ink);
+  background:
+    radial-gradient(circle at 12% 18%, rgba(255, 210, 100, 0.16), transparent 45%),
+    radial-gradient(circle at 85% 8%, rgba(92, 138, 255, 0.2), transparent 35%),
+    linear-gradient(180deg, #08101f, #0b1730 50%, #0a1327);
+}
+
+h1,
+h2,
+p {
+  margin: 0;
+}
+
+h1,
+h2 {
+  font-family: 'Avenir Next', 'Century Gothic', 'Trebuchet MS', sans-serif;
+  color: #f4f8ff;
+}
+
+h1 {
+  font-size: clamp(1.8rem, 4vw, 3.3rem);
+  line-height: 1.05;
+  margin-bottom: 0.9rem;
+}
+
+p {
+  line-height: 1.5;
+}
